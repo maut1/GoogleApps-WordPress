@@ -1,0 +1,80 @@
+/* media item rules */
+.media-item .insert-as .choices label
+{
+	width: auto;
+}
+
+.media-item .insert-type.download
+{
+	display: none;
+}
+
+/* doc type icons */
+
+.media-item .docs-icon,
+#filter .subsubsub a.docs-icon
+{
+	background-repat: no-repeat;
+	width: 16px;
+	height: 16px;
+
+	margin: 0 5px;
+	background-image: url(../images/google-docs-icons.png);
+	background-repeat: no-repeat;
+}
+
+#filter .subsubsub a.docs-icon
+{
+	margin-top: 5px;
+	padding: 0;
+}
+
+.media-item .docs-icon
+{
+	margin: 10px 10px;
+	float: left;
+}
+
+.docs-icon-drawing,
+.subsubsub .docs-icon-drawing.current
+{
+	background-position: -48px 0;
+}
+
+.docs-icon-spreadsheet,
+.subsubsub .docs-icon-spreadsheet.current
+{
+	background-position: -32px 0;
+}
+
+.docs-icon-presentation,
+.subsubsub .docs-icon-presentation.current
+{
+	background-position: -16px 0;
+}
+
+.docs-icon-pdf,
+.subsubsub .docs-icon-pdf.current
+{
+	background-position: -64px 0;
+}
+
+#media-items .last-updated
+{
+	float: right;
+	margin: 10px 10px 0 0;
+}
+
+
+.media-item .loading
+{
+	display: none;
+	vertical-align: middle;
+}
+
+.no-results
+{
+	padding: 10px;
+	text-align: center;
+	width: 623px;
+}

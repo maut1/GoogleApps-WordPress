@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ApplicationManifest xmlns="http://schemas.google.com/ApplicationManifest/2009">
+  <Name>e5: Google Apps + WordPress</Name>
+  <Description>Harness the power of WordPress within your Google Apps domain… specifically designed for small businesses!</Description>
+
+  <!-- Administrators and users will be sent to this URL for application support -->
+  <Support>
+    <Link rel="support" href="http://e5.io/contact" />
+    <Link rel="setup" href="http://e5.io/?domain=${DOMAIN_NAME}&amp;action=gapps-setup" />
+  </Support>
+
+  <!-- Show this link in Google's universal navigation for all users -->
+  <Extension id="navLink" type="link">
+    <Name>e5 Web site builder</Name>
+    <Url>http://e5.io/?from=google&amp;action=login&amp;domain=${DOMAIN_NAME}</Url>
+    <Scope ref="calendarAPI"/>
+    <Scope ref="contactFeed"/>
+    <Scope ref="userFeed"/>
+    <Scope ref="groupFeed"/>
+    <Scope ref="nicknameFeed"/>
+    <Scope ref="docsAPI"/>
+  </Extension>
+
+  <!-- Declare our OpenID realm so our app is white listed -->
+  <Extension id="realm" type="openIdRealm">
+    <Url>http://e5.io/</Url>
+  </Extension>
+
+  <!-- Need access to the Calendar API -->
+  <Scope id="calendarAPI">
+    <Url>https://www.google.com/calendar/feeds/</Url>
+    <Reason>This app displays the user's next upcoming Google Calendar appointment.</Reason>
+  </Scope>
+  <!-- Need access to the Contacts feed -->
+  <Scope id="contactFeed">
+    <Url>https://www.google.com/m8/feeds/</Url>
+    <Reason>This application manages Contacts.</Reason>
+  </Scope>
+  <Scope id="userFeed">
+    <Url>https://apps-apis.google.com/a/feeds/user/#readonly</Url>
+    <Reason>This application manages Users.</Reason>
+  </Scope>
+  <Scope id="groupFeed">
+    <Url>https://apps-apis.google.com/a/feeds/group/#readonly</Url>
+    <Reason>This application manages Groups.</Reason>
+  </Scope>
+  <Scope id="nicknameFeed">
+    <Url>https://apps-apis.google.com/a/feeds/nickname/#readonly</Url>
+    <Reason>This application manages Nicknames.</Reason>
+  </Scope>
+<Scope id="docsAPI">
+    <Url>https://docs.google.com/feeds/</Url>
+    <Reason>This app displays the user's files.</Reason>
+  </Scope>
+</ApplicationManifest>

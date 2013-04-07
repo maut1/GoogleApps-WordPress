@@ -1,0 +1,132 @@
+select option
+{
+	padding: 0 5px 0 3px;
+}
+
+
+#media-items
+{
+	clear: both;
+	margin: 20px 1em 1em;
+}
+
+#filter .subsubsub a
+{
+	float: left;
+}
+
+
+/* media items list */
+#media-items .filename,
+#media-items .owner
+{
+	float: left;
+	line-height: 36px;
+	max-height: 36px;
+	overflow: hidden;
+}
+
+#media-items .filename
+{
+	width: 410px;
+	max-width: 410px;
+	margin-right: 15px;
+}
+
+#media-items .owner
+{
+	width: 50px;
+	max-width: 50px;
+}
+
+
+/* media item */
+
+.media-item
+{
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.media-item .insert-options
+{
+	display: none;
+	clear: both;
+	margin: 10px;
+	padding: 1px 0 0;
+}
+
+.media-item .insert-options label
+{
+	display: inline-block;
+	width: 190px;
+	margin-right: 10px;
+}
+
+.media-item .insert-options form
+{
+	margin: 10px 0;
+}
+
+.media-item .insert-options input[type=text]
+{
+	width: 5em;
+	padding: 2px 4px;
+}
+
+.media-item .insert-options input[type=button]
+{
+	background: #eeeeee;
+	border-radius: 4px;
+	padding: 2px 4px;
+}
+
+.media-item .insert-options select
+{
+	height: 21px;
+	padding: 0;
+}
+
+.media-item .insert-options .alignment-options label
+{
+	width: auto;
+}
+
+.media-item .insert-options .size-options
+{
+	display: inline-block;
+}
+
+.media-item .size > label
+{
+	vertical-align: top;
+}
+
+.media-item .link-url input[type=text]
+{
+	width: 20em;
+}
+
+
+/* picasa */
+
+#picasa-login
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 100px;
+}
+
+#picasa-login .grant-access,
+#picasa-login .reload
+{
+	padding: 7px 10px;
+	font-size: 1.4em;
+	border-radius: 4px;
+	background: #cccccc;
+	color: #000000;
+	text-decoration: none;
+	margin: 6px 0 10px;
+	display: inline-block;
+}
