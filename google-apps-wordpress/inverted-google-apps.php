@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Google Apps + WordPress
- * Plugin URI: http://extremis.com
- * Description: Google Apps integration for Wordpress.
+ * Plugin URI: http://www.e5.io
+ * Description: Google Apps integration for WordPress.
  * Version: 1.2
  * Author: Built in partnership between EXTREMIS and Second Variety LLP.
  * Author URI: http://secondvariety.org
