@@ -10,4 +10,4 @@ e5 connects the power of WordPress to the Google Apps ecosystem. Build sites, ma
 
 =======================
 -----------------------
-Discuss the plugin in the Google+ Community: https://plus.google.com/communities/111582386083192299878
+Discuss the plugin on the e5 I/O Google+ Page: https://plus.google.com/107093902451643677244/posts
