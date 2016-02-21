@@ -1,6 +1,6 @@
-Google Apps + WordPress
+Google Apps + WordPress Plugin
 -----------------------
-Connect the power of WordPress to the Google Apps ecosystem. Build sites, manage campaigns, and market your business with the e5: Google Apps + WordPress Plugin. Google Docs embedding, Picasa Photo sharing, Google Calendar scheduling, and more... install it on your own domain! e5: Google Apps + WordPress is designed for WordPress multisite networks. We are working on an update to include single site installations.
+Connect the power of WordPress to the Google Apps ecosystem. Build sites, manage campaigns, and market your business with the Google Apps + WordPress Plugin. Google Docs embedding, Picasa Photo sharing, Google Calendar scheduling, and more... install it on your own domain! e5: Google Apps + WordPress is designed for WordPress multisite networks. We are working on an update to include single site installations.
 
 -----------------------
 
@@ -9,5 +9,3 @@ Connect the power of WordPress to the Google Apps ecosystem. Build sites, manage
 3. Complete the Installation process through the Google Apps Marketplace and create your default site. Your Google Apps users will now have access to your WordPress.
 
 =======================
------------------------
-Discuss the plugin on the e5 Google+ Page: https://plus.google.com/+extremisE5/
